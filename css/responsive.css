@@ -1,0 +1,371 @@
+@media screen and (max-width: 768px) {
+	.break-down-login .login-half-text {
+		display: none !important;
+	}
+
+	.login-half-form {
+		padding-top: 70px;
+	}
+
+	.login-form .form-check .form-check-label {
+		font-size: 12px;
+	}
+
+	.break-down-login .cont .login-submit {
+		padding: 8px;
+	}
+
+	.lis-det-mat {
+		padding: 50px 0px;
+	}
+
+	.mt-100 {
+		margin-top: 90px !important;
+	}
+
+	.dowapp-slim-cont {
+		text-align: center;
+		margin-bottom: 25px;
+	}
+
+	.dowapp-slim-btn.text-right {
+		text-align: center !important;
+	}
+
+	.dowapp-slim-btn a {
+		margin: 0 auto;
+		margin-bottom: 15px;
+		display: block;
+	}
+
+	.dowapp-slim {
+		padding: 40px 0px 35px 0px;
+	}
+
+	.navbar-toggler {
+		padding: 3px 5px;
+	}
+
+	.mid {
+		display: none;
+	}
+
+	.vend-ad-ti {
+		margin-top: 20px;
+	}
+
+	li.nav-item img {
+		margin-bottom: 5px;
+	}
+
+	.app-head-top {
+		flex-direction: inherit;
+	}
+
+	.app-head-top li {
+		width: auto;
+	}
+
+	.navbar-collapse {
+		padding-top: 15px;
+	}
+
+	.foot_text ul li {
+		border-right: none;
+		line-height: 32px;
+	}
+
+	.contact-list li {
+		border-right: none;
+		line-height: 32px;
+	}
+
+	.plan-ban-cont h1 {
+		font-size: 30px;
+		line-height: 36px;
+	}
+
+	.plan-ban-img {
+		display: none;
+	}
+
+	.plan-sec-2-box p {
+		font-size: 15px;
+	}
+
+	.plan-ban-cont h1 span {
+		font-size: 18px;
+		line-height: 26px;
+		margin-top: 10px;
+	}
+
+	.plan-sec-2-cont h3 {
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.plan-sec-2-box {
+		margin-bottom: 20px;
+	}
+
+	.scale-sub,
+	.scale-pro {
+		transform: none;
+	}
+
+	.plans-box-cont {
+		margin-bottom: 30px;
+	}
+
+	.plan-benf-cont h3 {
+		margin-top: 25px;
+		line-height: 36px;
+		font-size: 26px;
+		margin-bottom: 20px;
+	}
+
+	.register-busn-text h2 {
+		font-size: 26px;
+	}
+
+	.register-busn-content p {
+		font-size: 16px;
+	}
+
+	.plan-ban-sec {
+		padding: 60px 15px 40px 15px;
+	}
+
+	.foot-highligh-link li {
+		width: 100%;
+		margin: 5px 0px;
+	}
+
+	.foot-highligh-link {
+		margin-bottom: 0px;
+	}
+
+	.plan-sec-3 {
+		padding: 80px 0px 60px 0px;
+	}
+
+	footer {
+		padding: 35px 10px 10px 10px;
+	}
+
+	.footer-bottom p {
+		font-size: 14px;
+	}
+
+	.plan-benf-cont p {
+		margin-bottom: 10px;
+	}
+
+	.inter-list-srch {
+		position: relative;
+		top: 90px;
+	}
+
+	.listing-search {
+		padding: 40px 10px 30px 10px;
+	}
+
+	.listing-search .advc-srch-form .form-control {
+		margin-bottom: 10px;
+	}
+
+	.listing-search .advc-srch-form .adv-miles {
+		margin-bottom: 15px !important;
+		margin-top: 10px;
+	}
+
+	.listing-search .adv-loc-icon {
+		right: 20px;
+	}
+
+	.list-inf-btn {
+		text-align: left !important;
+		position: relative;
+		bottom: 0px;
+		right: 0px;
+	}
+
+	.inter-list-viw .sliver-plan-wrap {
+		padding: 15px;
+	}
+
+	.inter-list-viw .sliver-plan-wrap .sliver-image {
+		margin-bottom: 20px;
+	}
+
+	.add-para {
+		margin-top: 0px !important;
+	}
+
+	.add-para p {
+		margin-bottom: 15px;
+	}
+
+	.relat-links ul {
+		column-count: 1;
+		margin-top: 10px;
+		text-align: center;
+	}
+
+	.lis-pag-text h6 {
+		font-size: 18px;
+		line-height: 27px;
+		font-weight: 800;
+	}
+
+	.inter-list-viw .sliver-plan-wrap .sliver-content .border-right {
+		border-right: 0px !important;
+	}
+
+	.inter-list-viw .sliver-plan-wrap .sliver-content .share-icon {
+		position: absolute;
+		right: -15px;
+		top: 0px;
+	}
+
+	.inter-list-viw .sliver-content ul.road-service {
+		margin-bottom: 15px;
+	}
+
+	.company-ads {
+		display: none;
+	}
+
+	.list-page-content {
+		padding: 50px 0px;
+	}
+	
+	.banner-heading h1{
+		font-size: 30px;
+		padding: 0px 20px !important;
+	}
+	
+	.banner{
+		padding: 160px 0px 60px 0px;
+	}
+
+    .uptop-btn{
+		right: 10px;
+		bottom: 15px;
+		padding: 5px 10px;
+	}
+	
+	.listing-search .adv-miles .miles-range {
+        width: 100%;
+    }
+
+   .highlight-icons{
+	   display:none;
+	}
+   
+   .custom-selector, .custom-search{
+	 width: 100%; 
+     border-right:none;	
+     background: #fff;
+     margin-bottom: 10px;
+     border-radius: 50px;
+     padding: 0px 15px;	 
+   }
+   
+   .banner-from{margin-top: 25px;}
+   
+   .logo-slide ul li img{margin-bottom: 10px;}
+   
+   .logo-slide ul li{padding: 0px 10px;}
+   
+   .brand-slider {padding: 30px 0px 20px 0px;}
+   
+   .choose-service{display: block !important; background: none; border-radius: 0px;}
+   
+   .cust-select-opt{width: 100%; margin: 0px; height: 45px; padding: 0px 15px;}
+   
+   .custom-search .form-control{height: 45px;padding:0px 15px;}
+   
+   .search-btn{
+	   border-radius: 50px 50px 50px 50px;
+	   padding: 10px 15px;
+   }
+   
+   .custom-search .fa{right: 20px; top: 14px;}
+   
+   .search-btn-div {
+    width: 50%;
+    margin: 20px auto;
+   }
+   
+   .adv-sar .modal-dialog{margin: 4rem auto; padding: 0px 10px;}
+   
+   .advc-srch-form .form-group, .advc-location {
+    margin-bottom: 10px;
+    }
+	
+	.adv-miles{margin-top:10px;}
+	
+	.adv-loc-icon{right: 18px;}
+	
+	section.home-about-wrap, section.home-service-wrap, section.home-plan-wrap{padding: 70px 0;}
+	
+	.theme-heading-one br{display:none;}
+	
+	.theme-heading-one{font-size: 26px; line-height: 36px;}
+	
+	.abt-tex{margin-top:40px;}
+	
+	.dacontent{margin: 0px 15px;}
+	
+	.dapp-sec .dabtn img{width: 150px; margin-bottom: 10px;}
+	
+	.service-left .icon, .service-right .icon, .dascreen{display:none;}
+	
+	.dapp-sec{padding: 50px 0px;}
+	
+	.service-left .cont, .service-right .cont{text-align:left; margin-right:10px; margin-left:10px;}
+	
+	.csd-section{background:#f0f0f0; background-image:none; padding:50px 0px;}
+	
+	.csd-ul li {padding:5px 0px 5px 0px; font-size:15px;}
+	
+	.csd-section::before{background: #efefef;}
+	
+	.csd-form{box-shadow:0px 5px 10px 0px #00000030; margin:40px 20px 15px 20px; padding:30px 20px;}
+	
+	.home-plan-wrap .plan-wrapa nav>div a.nav-item.nav-link.active:after{display:none;}
+	
+	.home-plan-wrap .plan-wrapa nav>div a.nav-item.nav-link{display: block;width: 100%;margin-bottom: 15px; max-width: 100%;}
+	
+	.home-plan-wrap .plan-wrapa nav>.nav.nav-tabs{padding: 25px 25px 10px 25px;}
+	
+	.home-plan-wrap .sliver-plan-wrap .sliver-image{margin-bottom: 15px;}
+	
+	.home-plan-wrap .sliver-content .share-icon{display:none;}
+	
+	.home-plan-wrap .sliver-content .w-type{margin-right: 10px; font-size: 12px;}
+	
+	.home-plan-wrap .sliver-content .contact-no{font-size: 17px;}
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,279 @@
+@font-face {
+    font-family: 'aktivgrotesk-bold';
+    src: url('aktivgrotesk-bold-webfont.woff2') format('woff2'),
+         url('aktivgrotesk-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-hair';
+    src: url('aktivgrotesk-hairline-webfont.woff2') format('woff2'),
+         url('aktivgrotesk-hairline-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-light';
+    src: url('aktivgrotesk-light-webfont.woff2') format('woff2'),
+         url('aktivgrotesk-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-medium';
+    src: url('aktivgrotesk-medium-webfont.woff2') format('woff2'),
+         url('aktivgrotesk-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-regular';
+    src: url('aktivgrotesk-regular-webfont.woff2') format('woff2'),
+         url('aktivgrotesk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-thin';
+    src: url('aktivgrotesk-thin-webfont.woff2') format('woff2'),
+         url('aktivgrotesk-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aktivgrotesk-blackitalic';
+    src: url('aktivgrotesk-blackitalic-webfont.woff2') format('woff2'),
+         url('aktivgrotesk-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-bold';
+    src: url('aktivgrotesk-bold-webfont.woff2') format('woff2'),
+         url('aktivgrotesk-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-bolditalic';
+    src: url('aktivgrotesk-bolditalic-webfont.woff2') format('woff2'),
+         url('aktivgrotesk-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-italc';
+    src: url('aktivgrotesk-italic-webfont.woff2') format('woff2'),
+         url('aktivgrotesk-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-light';
+    src: url('aktivgrotesk-light-webfont.woff2') format('woff2'),
+         url('aktivgrotesk-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-lightitalic';
+    src: url('aktivgrotesk-lightitalic-webfont.woff2') format('woff2'),
+         url('aktivgrotesk-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-mediumitalic';
+    src: url('aktivgrotesk-mediumitalic-webfont.woff2') format('woff2'),
+         url('aktivgrotesk-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aktivgrotesk-xbold';
+    src: url('aktivgrotesk-xbold-webfont.woff2') format('woff2'),
+         url('aktivgrotesk-xbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-xbolditalic';
+    src: url('aktivgrotesk-xbolditalic-webfont.woff2') format('woff2'),
+         url('aktivgrotesk-xbolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-black';
+    src: url('aktivgrotesk-black-webfont.woff2') format('woff2'),
+         url('aktivgrotesk-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'aktivgrotesk-hairlineitalic';
+    src: url('aktivgrotesk-hairlineitalic-webfont.woff2') format('woff2'),
+         url('aktivgrotesk-hairlineitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'hemi_headbold_italic';
+    src: url('hemi_head_bd_it-webfont.woff2') format('woff2'),
+         url('hemi_head_bd_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'costarbrownbold';
+    src: url('lineto-costar-brown-bold-webfont.woff2') format('woff2'),
+         url('lineto-costar-brown-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'costarbrownlight';
+    src: url('lineto-costar-brown-light-webfont.woff2') format('woff2'),
+         url('lineto-costar-brown-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'costarbrownregular';
+    src: url('lineto-costar-brown-regular-webfont.woff2') format('woff2'),
+         url('lineto-costar-brown-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('montserrat-bold-webfont.woff2') format('woff2'),
+         url('montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('montserrat-regular-webfont.woff2') format('woff2'),
+         url('montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sketch_rockwellregular';
+    src: url('sketch_rockwell_regular-webfont.woff2') format('woff2'),
+         url('sketch_rockwell_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Agency FB';
+    src: url('agencyfb-regular-webfont.woff2') format('woff2'),
+         url('agencyfb-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Agency FB Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Agency FB Bold'), url('AGENCYB.woff') format('woff');
+}

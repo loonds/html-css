@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/custom.css"/>
+	<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+    <title>Breakdown Inc | Home</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg pt-1 pb-1 pr-2 pl-2">
+              <a class="navbar-brand" href="index.html"><img src="images/logo.png" /></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto app-head-top">
+                  <li class="nav-item menu-item-has-children1">
+                    <a href="https://itunes.apple.com/us/app/breakdown-inc/id1459289134" target="_blank">
+                    <img src="images/appstore.png" class="img-responsive" alt="Download Breakdown Inc ios app on app store">
+                    </a>
+                  </li>
+                  <li class="nav-item menu-item-has-children1">
+                    <a href="https://play.google.com/store/apps/details?id=com.crinoid.breakdown&amp;hl=en" target="_blank">
+                    <img src="images/googleplay.png" class="img-responsive" alt="Download Breakdown Inc Android app on Google Play">
+                    </a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="plan.html">Plans</a>
+                  </li>
+                  <li class="nav-item position-relative">
+                    <a class="nav-link pr-md-2" href="login.html">Login</a>
+                    <span class="mid">/</span>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pl-md-2" href="signup.html">Register</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="add-listing.html">
+                    <button class="list-btn"><i class="fa fa-plus-circle" aria-hidden="true"></i>&nbsp; Add a Listing</button>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="internal-list-view" class="inter-list-srch">
+      <div class="container">
+        <div class="listing-search">
+          <form>
+            <div class="row advc-srch-form justify-content-center">
+             <div class="form-group col-md-3 pr-md-0 mb-0">
+               <select class="selectpicker advc-select cust-select-opt form-control">
+                      <option selected>Choose Your Service...</option>
+                        <option>Truck Repair</option>
+                        <option>Trailer Repair</option>
+                        <option>Towing Recovery</option>
+                        <option>Tire Repair and Sales</option>
+                        <option>Reefer Repair</option>
+                        <option>Truck Stops with Repair</option>
+						<option>Truck Repair</option>
+                        <option>Trailer Repair</option>
+                        <option>Towing Recovery</option>
+                        <option>Tire Repair and Sales</option>
+                        <option>Reefer Repair</option>
+                        <option>Truck Stops with Repair</option>
+				</select>
+              </div>
+              <div class="input-group col-md-3 advc-location pr-md-0 mb-0">
+                <input class="form-control position-relative" type="text" placeholder="Enter Your Location" id="#">
+                <span class="adv-loc-icon">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                </span>
+              </div>
+			  <div class="form-group col-md-2 pr-md-0 mb-0">
+                <select class="selectpicker advc-select cust-select-opt form-control advc-work">
+                  <option selected>Work Type</option>
+                  <option>Mobile/Shop</option>
+                  <option>Mobile</option>
+                  <option>Shop</option>
+				</select>
+			  </div>
+			  <div class="form-group col-md-2 adv-miles pr-md-0 mb-0">
+                <label for="customRange1" class="form-label text-white">Miles Range</label>
+                <input type="text" id="rangePrimary" value="40"/>
+                <input id="Range-miles" class="miles-range" type="range" name="range" step="10" min="10" max="200" value="40" onchange="rangePrimary.value=value">
+              </div>
+              <div class="col-md-2">
+                <button type="button" class="theme-button-2 w-100">Search</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section id="internal-list-detail" class="inter-list-viw mt-large pt-0">
+      <div class="container">
+        <div class="row">
+          <div class="company-ads col-md-12 mb-3">
+            <img src="images/listing-ads.jpg" class="img-fluid">
+          </div>
+          <div id="free-member" class="col-md-12 vendor-list">
+            <div class="sliver-plan-wrap">
+              <div class="row">
+                <div class="col-md-12 col-12">
+                  <div class="sliver-content position-relative h-100">
+                    <div class="row">
+                      <div class="col-md-3 col-12 border-right">
+                        <div class="w-type">
+                          <span class="small">0.0 Miles</span>
+                        </div>
+                        <h3 class="company">Breakdown Inc</h3>
+                        <p class="company">Dallas, Texas, United States</p>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="contact-no d-block">
+                          <i class="fa fa-phone" aria-hidden="true"></i> 
+                          <a href="tel:7027800780">(702)780-0780</a>
+                        </div>
+                        <div class="w-type d-inline">
+                          <span>Work Type :</span>
+                          <span class="small">Shop & Mobile</span>
+                        </div>
+                        <ul class="road-service">
+                          <li>Road Service</li>
+                          <li>Electrical System</li>
+                          <li>New Tires Sales</li>
+                          <li>Fleet Acounts</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2 share-icon text-right">
+                        <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12 text-right list-inf-btn">
+                        <button class="view-hour-bt" type="button" data-toggle="modal" data-target="#vendor-hours">
+                        View Hours
+                        </button>
+                        <a href="list-detail.html" class="aselectpln">View Details</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="free-member" class="col-md-12 vendor-list">
+            <div class="sliver-plan-wrap">
+              <div class="row">
+                <div class="col-md-12 col-12">
+                  <div class="sliver-content position-relative h-100">
+                    <div class="row">
+                      <div class="col-md-3 col-12 border-right">
+                        <div class="w-type">
+                          <span class="small">0.0 Miles</span>
+                        </div>
+                        <h3 class="company">Breakdown Inc</h3>
+                        <p class="company">Dallas, Texas, United States</p>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="contact-no d-block">
+                          <i class="fa fa-phone" aria-hidden="true"></i> 
+                          <a href="tel:7027800780">(702)780-0780</a>
+                        </div>
+                        <div class="w-type d-inline">
+                          <span>Work Type :</span>
+                          <span class="small">Shop & Mobile</span>
+                        </div>
+                        <ul class="road-service">
+                          <li>Road Service</li>
+                          <li>Electrical System</li>
+                          <li>New Tires Sales</li>
+                          <li>Fleet Acounts</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2 share-icon text-right">
+                        <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12 text-right list-inf-btn">
+                        <button class="view-hour-bt" type="button" data-toggle="modal" data-target="#vendor-hours">
+                        View Hours
+                        </button>
+                        <a href="list-detail.html" class="aselectpln">View Details</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="free-member" class="col-md-12 vendor-list">
+            <div class="sliver-plan-wrap">
+              <div class="row">
+                <div class="col-md-12 col-12">
+                  <div class="sliver-content position-relative h-100">
+                    <div class="row">
+                      <div class="col-md-3 col-12 border-right">
+                        <div class="w-type">
+                          <span class="small">0.0 Miles</span>
+                        </div>
+                        <h3 class="company">Breakdown Inc</h3>
+                        <p class="company">Dallas, Texas, United States</p>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="contact-no d-block">
+                          <i class="fa fa-phone" aria-hidden="true"></i> 
+                          <a href="tel:7027800780">(702)780-0780</a>
+                        </div>
+                        <div class="w-type d-inline">
+                          <span>Work Type :</span>
+                          <span class="small">Shop & Mobile</span>
+                        </div>
+                        <ul class="road-service">
+                          <li>Road Service</li>
+                          <li>Electrical System</li>
+                          <li>New Tires Sales</li>
+                          <li>Fleet Acounts</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2 share-icon text-right">
+                        <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12 text-right list-inf-btn">
+                        <button class="view-hour-bt" type="button" data-toggle="modal" data-target="#vendor-hours">
+                        View Hours
+                        </button>
+                        <a href="list-detail.html" class="aselectpln">View Details</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="free-member" class="col-md-12 vendor-list">
+            <div class="sliver-plan-wrap">
+              <div class="row">
+                <div class="col-md-12 col-12">
+                  <div class="sliver-content position-relative h-100">
+                    <div class="row">
+                      <div class="col-md-3 col-12 border-right">
+                        <div class="w-type">
+                          <span class="small">0.0 Miles</span>
+                        </div>
+                        <h3 class="company">Breakdown Inc</h3>
+                        <p class="company">Dallas, Texas, United States</p>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="contact-no d-block">
+                          <i class="fa fa-phone" aria-hidden="true"></i> 
+                          <a href="tel:7027800780">(702)780-0780</a>
+                        </div>
+                        <div class="w-type d-inline">
+                          <span>Work Type :</span>
+                          <span class="small">Shop & Mobile</span>
+                        </div>
+                        <ul class="road-service">
+                          <li>Road Service</li>
+                          <li>Electrical System</li>
+                          <li>New Tires Sales</li>
+                          <li>Fleet Acounts</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2 share-icon text-right">
+                        <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12 text-right list-inf-btn">
+                        <button class="view-hour-bt" type="button" data-toggle="modal" data-target="#vendor-hours">
+                        View Hours
+                        </button>
+                        <a href="list-detail.html" class="aselectpln">View Details</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="silver-member" class="col-md-12 vendor-list">
+            <div class="sliver-plan-wrap">
+              <div class="row">
+                <div class="col-md-3 col-12 pr-md-0">
+                  <div class="sliver-image">
+                    <img src="images/ad-design-11.jpg" class="img-fluid rounded">
+                  </div>
+                </div>
+                <div class="col-md-9 col-12">
+                  <div class="sliver-content position-relative h-100">
+                    <div class="row">
+                      <div class="col-md-3 col-12 border-right">
+                        <div class="w-type">
+                          <span class="small">0.0 Miles</span>
+                        </div>
+                        <h3 class="company">Breakdown Inc</h3>
+                        <p class="company">Dallas, Texas, United States</p>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="contact-no d-block">
+                          <i class="fa fa-phone" aria-hidden="true"></i> 
+                          <a href="tel:7027800780">(702)780-0780</a>
+                        </div>
+                        <div class="w-type d-inline">
+                          <span>Work Type :</span>
+                          <span class="small">Shop & Mobile</span>
+                        </div>
+                        <ul class="road-service">
+                          <li>Road Service</li>
+                          <li>Electrical System</li>
+                          <li>New Tires Sales</li>
+                          <li>Fleet Acounts</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2 share-icon text-right">
+                        <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12 text-right list-inf-btn">
+                        <button class="view-hour-bt" type="button" data-toggle="modal" data-target="#vendor-hours">
+                        View Hours
+                        </button>
+                        <a href="list-detail.html" class="aselectpln">View Details</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="gold-member" class="col-md-12 vendor-list">
+            <div class="sliver-plan-wrap">
+              <div class="row">
+                <div class="col-md-3 col-12 pr-md-0">
+                  <div class="sliver-image">
+                    <img src="images/ad-design-22.jpg" class="img-fluid rounded">
+                  </div>
+                </div>
+                <div class="col-md-9 col-12">
+                  <div class="sliver-content position-relative h-100">
+                    <div class="row">
+                      <div class="col-md-3 col-12 border-right">
+                        <div class="w-type">
+                          <span class="small">0.0 Miles</span>
+                        </div>
+                        <h3 class="company">Breakdown Inc</h3>
+                        <p class="company">Dallas, Texas, United States</p>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="contact-no d-block">
+                          <i class="fa fa-phone" aria-hidden="true"></i> 
+                          <a href="tel:7027800780">(702)780-0780</a>
+                        </div>
+                        <div class="w-type d-inline">
+                          <span>Work Type :</span>
+                          <span class="small">Shop & Mobile</span>
+                        </div>
+                        <ul class="road-service">
+                          <li>Road Service</li>
+                          <li>Electrical System</li>
+                          <li>New Tires Sales</li>
+                          <li>Fleet Acounts</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2 share-icon text-right">
+                        <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12 text-right list-inf-btn">
+                        <button class="view-hour-bt" type="button" data-toggle="modal" data-target="#vendor-hours">
+                        View Hours
+                        </button>
+                        <a href="list-detail.html" class="aselectpln">View Details</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="diamond-member" class="col-md-12 vendor-list">
+            <div class="sliver-plan-wrap">
+              <div class="row">
+                <div class="col-md-3 col-12 pr-md-0">
+                  <div class="sliver-image">
+                    <img src="images/ad-design-33.jpg" class="img-fluid rounded">
+                  </div>
+                </div>
+                <div class="col-md-9 col-12">
+                  <div class="sliver-content position-relative h-100">
+                    <div class="row">
+                      <div class="col-md-3 col-12 border-right">
+                        <div class="w-type">
+                          <span class="small">0.0 Miles</span>
+                        </div>
+                        <h3 class="company">Breakdown Inc</h3>
+                        <p class="company">Dallas, Texas, United States</p>
+                      </div>
+                      <div class="col-md-7">
+                        <div class="contact-no d-block">
+                          <i class="fa fa-phone" aria-hidden="true"></i> 
+                          <a href="tel:7027800780">(702)780-0780</a>
+                        </div>
+                        <div class="w-type d-inline">
+                          <span>Work Type :</span>
+                          <span class="small">Shop & Mobile</span>
+                        </div>
+                        <ul class="road-service">
+                          <li>Road Service</li>
+                          <li>Electrical System</li>
+                          <li>New Tires Sales</li>
+                          <li>Fleet Acounts</li>
+                        </ul>
+                      </div>
+                      <div class="col-md-2 share-icon text-right">
+                        <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="add-para mt-3">
+                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12 text-right list-inf-btn">
+                        <button class="view-hour-bt" type="button" data-toggle="modal" data-target="#vendor-hours">
+                        View Hours
+                        </button>
+                        <a href="list-detail.html" class="aselectpln">View Details</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 cst-pagination mt-3">
+            <nav class="text-right">
+              <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="related-list" class="rel-sear-link theme-gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-center">
+              <p class="sub-head-one">- Related Search -</p>
+              <h2 class="theme-heading-one">Trailer Repair Service Near Me In Georgia</h2>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="relat-links">
+              <ul>
+                <li><a href="#"> Trailer Repair Service near me in Lincolnton</a></li>
+                <li><a href="#"> Trailer Repair Service near me in Cartersville</a></li>
+                <li><a href="#"> Trailer Repair Service near me in Columbus</a></li>
+                <li><a href="#"> Trailer Repair Service near me in Mcrae-helena</a></li>
+                <li><a href="#"> Trailer Repair Service near me in East-Dublin</a></li>
+                <li><a href="#"> Trailer Repair Service near me in Union-Point</a></li>
+                <li><a href="#"> Trailer Repair Service near me in Hogansville</a></li>
+                <li><a href="#"> Trailer Repair Service near me in Pulaski</a></li>
+                <li><a href="#"> Trailer Repair Service near me in Pinehurst</a></li>
+                <li><a href="#"> Trailer Repair Service near me in Moultrie</a></li>
+                <li><a href="#"> Trailer Repair Service near me in Ball-Ground</a></li>
+                <li><a href="#"> Trailer Repair Service near me in Preston</a></li>
+                <li><a href="#"> Trailer Repair Service near me in Marietta</a></li>
+                <li><a href="#"> Trailer Repair Service near me in Albany</a></li>
+                <li><a href="#"> Trailer Repair Service near me in Braselton</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="list-page-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 lis-pag-text">
+            <h6>
+            Breakdown Inc. - Reliable source to find truck repair services near you
+            <h6>
+            <p>Truckers have needed truck maintenance services, truck stops, and emergency roadside services for as long as they have been on the road.Breakdowns aren't easy, but dont panic if you find yourself stranded on the side of the road. We know breakdowns are frustrating, hence finding nearby repair shops quickly becomes a priority. Breakdown Inc. is dedicated to providing truck drivers and others with the necessary information of the nearest repair shops in these current times. Breakdown Inc. is an online platform that delivers accurate and trustworthy information about nearby repair shops and service providers who may provide the service you require. On Breakdown Inc., you can get trustworthy details of the nearest service provider for </p>
+            <h6>
+            How to find information about nearest repair shops?
+            <h6>
+            <p>Breakdown Inc was created to give you the ease of immediately finding the closest <b>Trailer Repair</b> in <b>Dallas, GA, USA</b>. It was built for drivers in mind, who are always on the road. Likewise, it was built for people who want and need accurate &amp; quick information. Simply choose the service you require and the location you are at. Get the information of nearest <b>Trailer Repair</b> in <b>Dallas, GA, USA</b> instantly. You also get their contact information, therefore making it more comfortable for you. Breakdown Inc. is committed to providing you with information that you can rely on. We've developed a huge database of <a href="https://www.breakdowninc.com/blog/heavy-duty-truck-repair-services">heavy-duty truck repair </a>  shops/places. To add new repair shops to our database, we consult a variety of sources and double-check all of the information provided. In your emergency situations, use Breakdown Inc. to get reliable data. Also, Breakdown Inc. is simple to search and simple to use. We make it our mission to be the trustworthy source you can depend upon.</p>
+            <h6>
+            Any service you need, Anywhere you need
+            <h6>
+            <p>Breakdown Inc. offers a wide variety of search services across the United States. We understand how tough it may be to find 
+              a <b>Trailer Repair</b> service in <b>Dallas, GA, USA</b>, but with Breakdown Inc., you won't have to. Choose your required service and your location, and instantly find shops near you. The information is well-organized, with the nearest to farthest distances shown; you may also use the range/miles to get additional information or find more repair shops. You have the flexibility to choose the best service option 
+              for yourself.  We understand how crucial time is in an emergency, which is why you will only discover reliable data at Breakdown Inc. 
+              We take pride in providing helpful information in the time of need. You'll never have to worry again about locating service in an 
+              unfamiliar area again, Breakdown Inc got you covered.
+            </p>
+            <h6>
+            Breakdown Inc. Mobile application, get details in seconds 
+            <h6>
+            <p>Any vehicle can become difficult on an open road. Anything can trigger a breakdown, including severe weather or a lack of upkeep. 
+              Working in the trucking industry can be demanding. Waiting for roadside assistance when you have a full cargo to deliver on time might 
+              get pretty inconvenient. Don't be too worried if your truck breaks down in the middle of the road at an inconvenient hour. Open the 
+              Breakdown Inc mobile app. In seconds, find information on <b>Trailer Repair</b> in <b>Dallas, GA, USA</b> that are close to you. On Breakdown Inc., you can discover all nearby repair shops for whatever service you could need for your truck, trailer, or semi-truck. So, if your vehicle breaks down on the road, you can rely on our <a href="https://www.breakdowninc.com/blog/roadside-assistance"> emergency roadside service</a> information. Hence, get your vehicle back on the road as soon as possible. You can Download our app from Google play store and iOS.  Have a worry-free journey. 
+            </p>
+            <h6>
+            Locate Emergency roadside assistance with ease.
+            <h6>
+            <p>An emergency can occur anytime, they don't come with a prior warning. In times of urgent roadside assistance, you need something to 
+              rely on. Breakdown Inc. is all you need. With simple clicks, find yourself a saviour. Locate yourself the nearest emergency roadside 
+              assistance in <b>Dallas, GA, USA</b> immediately. We know that such situations are frustrating and full of worry. They're already stressful enough; you don't need to add to it by looking for <b>Trailer Repair</b> service <b>Dallas, GA, USA</b>. Breakdown Inc. fetches you with reliable and trustworthy information of roadside assistance/repair shops near you. You can locate assistance in seconds and get back on the road as soon as possible. Breakdown Inc. is simple and straightforward to use. For even more convenience, you can use our Breakdown Inc. 
+              mobile application. We understand that we can't take away your worry in an emergency roadside assistance situation, but we can 
+              absolutely try to assist you in any possible way. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="dowapp-slim">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-5 dowapp-slim-cont">
+            <h4>Download App Now</h4>
+            <p class="mb-0">Now Available on iOS and Android</p>
+          </div>
+          <div class="col-md-7 dowapp-slim-btn text-right">
+            <a href="https://play.google.com/store/apps/details?id=com.crinoid.breakdown&amp;hl=en" target="_blank">
+            <img class="img-fluid" src="images/googleplay.png" alt="googleplay"></a>
+            <a href="https://itunes.apple.com/us/app/breakdown-inc/id1459289134" target="_blank">
+            <img class="img-fluid" src="images/appstore.png" alt="appstore">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="tag_footer">
+              <div class="row">
+                <div class="contact-area col-md-12">
+                  <ul class="foot-highligh-link">
+                    <li><a href="#">Truck Breakdown App</a></li>
+                    <li><a href="#">Truck Repair Shops</a></li>
+                    <li><a href="#">Reefer Repair</a></li>
+                    <li><a href="#">Trailer Repair Shops</a></li>
+                    <li><a href="#">Towing Service Near Me</a></li>
+                    <li><a href="#">Tire Shops Near me</a></li>
+                    <li><a href="#">Truck Mechanic Near Me</a></li>
+                    <li><a href="#">Accident Recovery Services</a></li>
+                    <li><a href="#">Semi Truck Repair Near Me</a></li>
+                    <li><a href="#">Mobile Truck Repair</a></li>
+                    <li><a href="#">Wrecker Services Near Me</a></li>
+                    <li><a href="#">Heavy Duty Truck Repair</a></li>
+                  </ul>
+                </div>
+                <div class="foot_text col-md-12 my-3">
+                  <ul>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="blog.html">Blogs</a></li>
+                    <li><a href="app.html">App</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
+                    <li><a href="refund-cancellation-policy.html">Refund And Cancellation Policy</a></li>
+                  </ul>
+                </div>
+                <div class="contact-detail col-md-12 my-3">
+                  <ul class="contact-list">
+                    <li><a href="tel:800 805-7820"><i class="fa fa-phone"></i> (800) 805-7820</a></li>
+                    <li><a href="tel:702 780-0780"><i class="fa fa-phone"></i> (702) 780-0780</a></li>
+                    <li><a href="mailto:info@breakdowninc.com">
+                      <i class="fa fa-envelope-o"></i> 
+                      info@breakdowninc.com</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="social-icon col-md-12 my-3">
+                  <ul>
+                    <li>
+                      <a href="https://www.facebook.com/breakdownincorp" target="_blank">
+                      <i class="fa fa-facebook-square"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/breakdownincorp/" target="_blank">
+                      <i class="fa fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/Breakdown_inc" target="_blank">
+                      <i class="fa fa-twitter-square"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/channel/UCQ-MhvO5t66wKUfvOJeyI7g?view_as=subscriber" target="_blank">
+                      <i class="fa fa-youtube"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/company/breakdown-incorp" target="_blank">
+                      <i class="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="footer-bottom text-center">
+              <p class="py-1">© 2018-2022 Breakdown Inc.com. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+	
+	<a href="#" id="toTopBtn" class="uptop-btn" data-abc="true"> <i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+	
+    <!-- Hours Popup --->
+    <div class="modal fade adv-sar" id="vendor-hours" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h6 class="modal-title text-white">24 Hour Roadside Service</h6>
+            <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body pt-1">
+            <table class="table table-striped hours-time-table">
+              <thead>
+                <tr>
+                  <th class="border-0" scope="col">DAY</th>
+                  <th class="border-0" scope="col">Open Time</th>
+                  <th class="border-0" scope="col">Close Time</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">MONDAY</th>
+                  <td>08:00 AM</td>
+                  <td>05:00 PM</td>
+                </tr>
+                <tr>
+                  <th scope="row">TUESDAY</th>
+                  <td>08:00 AM</td>
+                  <td>05:00 PM</td>
+                </tr>
+                <tr>
+                  <th scope="row">WEDNESDAY</th>
+                  <td>08:00 AM</td>
+                  <td>05:00 PM</td>
+                </tr>
+                <tr>
+                  <th scope="row">THURSDAY</th>
+                  <td>08:00 AM</td>
+                  <td>05:00 PM</td>
+                </tr>
+                <tr>
+                  <th scope="row">FRIDAY</th>
+                  <td>08:00 AM</td>
+                  <td>05:00 PM</td>
+                </tr>
+                <tr>
+                  <th scope="row">SATURDAY</th>
+                  <td>CLOSED</td>
+                  <td>CLOSED</td>
+                </tr>
+                <tr>
+                  <th scope="row">SUNDAY</th>
+                  <td>CLOSED</td>
+                  <td>CLOSED</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="text-danger small mb-2">*Note : We advise you to call the vendor and verify hours before driving to the location.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hours Popup --->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+	
+	<script>
+	$(document).ready(function() {
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 20) {
+      $('#toTopBtn').fadeIn();
+    } else {
+      $('#toTopBtn').fadeOut();
+    }
+  });
+
+  $('#toTopBtn').click(function() {
+    $("html, body").animate({
+      scrollTop: 0
+    }, 1000);
+    return false;
+  });
+});
+	</script>
+	
+  </body>
+</html>

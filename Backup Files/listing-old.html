@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/custom.css"/>
+        <title>Breakdown Inc | Home</title>
+		
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg navbar-light pt-1 pb-1 pr-2 pl-2">
+                            <a class="navbar-brand" href="#"><img src="images/logo.png" /></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto">
+									<li class="nav-item menu-item-has-children1">
+                                        <a href="https://itunes.apple.com/us/app/breakdown-inc/id1459289134" target="_blank">
+											<img src="images/appstore.png" class="img-responsive" alt="Download Breakdown Inc ios app on app store">
+										</a>
+                                    </li>
+									<li class="nav-item menu-item-has-children1">
+                                        <a href="https://play.google.com/store/apps/details?id=com.crinoid.breakdown&amp;hl=en" target="_blank">
+											<img src="images/googleplay.png" class="img-responsive" alt="Download Breakdown Inc Android app on Google Play">
+										</a>
+                                    </li>
+                                </ul>
+								 <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Plans</a>
+                                    </li>
+									<li class="nav-item position-relative">
+                                        <a class="nav-link pr-md-2" href="#">Login</a>
+										<span class="mid">/</span>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link pl-md-2" href="#">Register</a>
+                                    </li>
+									<li class="nav-item">
+                                        <a class="nav-link" href="#">
+                                        <button class="list-btn"><i class="fa fa-plus-circle" aria-hidden="true"></i>&nbsp; Add a Listing</button>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="internal-list-view" class="inter-list-srch">
+            <div class="container">
+				    <div class="listing-search">
+                   
+                        <form>
+								  <div class="row advc-srch-form">
+										<div class="form-group col-md-2 pr-md-0 mb-0">
+										<select id="#" class="form-control advc-serv" data-role="select-dropdown">
+										   <option selected>Select Service</option>
+											<option>Truck/Trailer</option>
+											<option>Car</option>
+											<option>RV/Bus</option>
+										</select>
+										</div>
+										
+										<div class="form-group col-md-2 pr-md-0 mb-0">
+										<select class="advc-select form-control">
+										    <option selected>Choose Option</option>
+										    <option>Truck Repair</option>
+											<option>Trailer Repair</option>
+											<option>Towing Recovery</option>
+											<option>Tire Repair and Sales</option>
+											<option>Reefer Repair</option>
+											<option>Truck Stops with Repair</option>
+										</select>
+										</div>
+										
+										<div class="form-group col-md-2 pr-md-0 mb-0">
+										<select id="#" class="form-control advc-work" data-role="select-dropdown">
+										   <option selected>Work Type</option>
+											<option>Mobile/Shop</option>
+											<option>Mobile</option>
+											<option>Shop</option>
+											
+										  </select>
+										</div>
+										
+										<div class="input-group col-md-2 advc-location pr-md-0 mb-0">
+											<input class="form-control position-relative" type="text" value="Enter Your Location" id="#">
+											<span class="adv-loc-icon">
+												<i class="fa fa-map-marker" aria-hidden="true"></i>
+											</span>
+										</div>
+										
+										<div class="form-group col-md-2 adv-miles pr-md-0 mb-0">
+										<label for="customRange1" class="form-label text-white">Miles Range</label>
+										<input type="text" id="rangePrimary" value="40"/>
+                                        <input id="Range-miles" class="miles-range" type="range" name="range" step="10" min="10" max="200" value="40" onchange="rangePrimary.value=value">
+                                        </div>
+										
+										<div class="col-md-2">
+											<button type="button" class="theme-button-2 w-100">Search</button>
+										</div>
+										
+										
+									</div>
+							</form>
+                    
+                </div>
+            </div>
+        </section>
+		
+		
+		<section id="internal-list-detail" class="inter-list-viw mt-large pt-0">
+            <div class="container">
+                <div class="row">
+				  
+				  <div class="col-md-12 vendor-list mb-4">
+                       <div class="sliver-plan-wrap theme-gray p-3 rounded">
+										<div class="row justify-content-center align-items-center">
+											<div class="col-md-4 col-12">
+												<div class="sliver-image pr-md-2">
+													<img src="images/ad-design-11.jpg" class="img-fluid rounded">
+												</div>
+											</div>
+											<div class="col-md-8 col-12 pl-md-0">
+												<div class="sliver-content">
+													<div class="row">
+														<div class="col-md-8 col-12">
+															<h3 class="company">Breakdown Inc</h3>
+															<p class="company">Your Company Address, City, State, USA</p>
+														</div>
+														<div class="col-md-4 col-12 share-icon text-right">
+															<a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+															<a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-12">
+															<div class="contact-no">
+																<i class="fa fa-phone" aria-hidden="true"></i> 
+																<a href="tel:7027800780">(702)780-0780</a>
+															</div>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-12">
+															<hr>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-md-12 col-12">
+															<div class="w-type d-inline">
+																<span>Work Type :</span>
+																<span class="small">Shop & Mobile</span>
+															</div>
+															
+															<div class="w-type d-inline">
+																<span>Distance :</span>
+																<span class="small">0.0 Miles</span>
+															</div>
+															
+														</div>
+														
+													</div>
+													<div class="row">
+														<div class="col-md-9">
+															<p class="service-had"><strong>Services Provided :</strong></p>
+															<ul class="road-service">
+																<li>Road Service</li>
+																<li>Electrical System</li>
+																<li>New Tires Sales</li>
+																<li>Fleet Acounts</li>
+															</ul>
+														</div>
+														
+														<div class="col-md-3 col-12 text-right align-self-end">
+														<button class="view-hour-bt" type="button" data-toggle="modal" data-target="#vendor-hours">
+															 View Hours
+														</button>
+														<a href="#" class="aselectpln">View Details</a>
+														</div>
+														
+														
+													</div>
+													
+												</div>
+											</div>
+										</div>
+							</div>  
+                        </div>
+				  
+				  <div class="col-md-12 vendor-list mb-4">
+                       <div class="sliver-plan-wrap theme-gray p-3 rounded">
+										<div class="row justify-content-center align-items-center">
+											<div class="col-md-4 col-12">
+												<div class="sliver-image pr-md-2">
+													<img src="images/ad-design-22.jpg" class="img-fluid rounded">
+												</div>
+											</div>
+											<div class="col-md-8 col-12 pl-md-0">
+												<div class="sliver-content">
+													<div class="row">
+														<div class="col-md-8 col-12">
+															<h3 class="company">Breakdown Inc</h3>
+															<p class="company">Your Company Address, City, State, USA</p>
+														</div>
+														<div class="col-md-4 col-12 share-icon text-right">
+															<a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+															<a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-12">
+															<div class="contact-no">
+																<i class="fa fa-phone" aria-hidden="true"></i>
+																<a href="tel:7027800780">(702)780-0780</a>
+															</div>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-12">
+															<hr>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-md-12 col-12">
+															<div class="w-type d-inline">
+																<span>Work Type :</span>
+																<span class="small">Shop & Mobile</span>
+															</div>
+															
+															<div class="w-type d-inline">
+																<span>Distance :</span>
+																<span class="small">0.0 Miles</span>
+															</div>
+															
+														</div>
+														
+													</div>
+													<div class="row">
+														<div class="col-md-9">
+															<p class="service-had"><strong>Services Provided :</strong></p>
+															<ul class="road-service">
+																<li>Road Service</li>
+																<li>Electrical System</li>
+																<li>New Tires Sales</li>
+																<li>Fleet Acounts</li>
+															</ul>
+														</div>
+														
+														<div class="col-md-3 col-12 text-right align-self-end">
+														<button class="view-hour-bt" type="button" data-toggle="modal" data-target="#vendor-hours">
+															 View Hours
+														</button>
+														<a href="#" class="aselectpln">View Details</a>
+														</div>
+														
+														
+													</div>
+													
+												</div>
+											</div>
+										</div>
+							</div>  
+                        </div>
+						
+						<div class="col-md-12 vendor-list mb-4">
+                       <div class="sliver-plan-wrap theme-gray p-3 rounded">
+										<div class="row justify-content-center align-items-center">
+											<div class="col-md-4 col-12">
+												<div class="sliver-image pr-md-2">
+													<img src="images/ad-design-33.jpg" class="img-fluid rounded">
+												</div>
+											</div>
+											<div class="col-md-8 col-12 pl-md-0">
+												<div class="sliver-content">
+													<div class="row">
+														<div class="col-md-8 col-12">
+															<h3 class="company">Breakdown Inc</h3>
+															<p class="company">Your Company Address, City, State, USA</p>
+														</div>
+														<div class="col-md-4 col-12 share-icon text-right">
+															<a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+															<a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-12">
+															<div class="contact-no">
+																<i class="fa fa-phone" aria-hidden="true"></i>
+																<a href="tel:7027800780">(702)780-0780</a>
+															</div>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-12">
+															<hr>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-md-12 col-12">
+															<div class="w-type d-inline">
+																<span>Work Type :</span>
+																<span class="small">Shop & Mobile</span>
+															</div>
+															
+															<div class="w-type d-inline">
+																<span>Distance :</span>
+																<span class="small">0.0 Miles</span>
+															</div>
+															
+														</div>
+														
+													</div>
+													
+													<div class="row">
+														<div class="col-md-12">
+															<div class="add-para mt-4">
+																<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+															</div>
+														</div>
+													</div>
+													
+													
+													
+													
+													<div class="row">
+														<div class="col-md-9">
+															<p class="service-had"><strong>Services Provided :</strong></p>
+															<ul class="road-service">
+																<li>Road Service</li>
+																<li>Electrical System</li>
+																<li>New Tires Sales</li>
+																<li>Fleet Acounts</li>
+															</ul>
+														</div>
+														
+														<div class="col-md-3 col-12 text-right align-self-end">
+														<button class="view-hour-bt" type="button" data-toggle="modal" data-target="#vendor-hours">
+															 View Hours
+														</button>
+														<a href="#" class="aselectpln">View Details</a>
+														</div>
+													
+													</div>
+													
+												</div>
+											</div>
+										</div>
+							</div>  
+                        </div>
+						
+						
+				  <div class="col-md-12 cst-pagination mt-3">
+				    <nav class="text-right">
+					  <ul class="pagination">
+						<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+						<li class="page-item"><a class="page-link" href="#">1</a></li>
+						<li class="page-item"><a class="page-link" href="#">2</a></li>
+						<li class="page-item"><a class="page-link" href="#">3</a></li>
+						<li class="page-item"><a class="page-link" href="#">Next</a></li>
+					  </ul>
+					</nav>
+				  </div>
+
+                </div>
+            </div>
+        </section>
+		
+		
+		<section class="dowapp-slim">
+		
+		  <div class="container">
+		     <div class="row justify-content-center align-items-center">
+			    <div class="col-md-5 dowapp-slim-cont">
+				 <h4>Download App Now</h4>
+				 <p class="mb-0">Now Available on iOS and Android</p>
+				</div>
+				
+				<div class="col-md-7 dowapp-slim-btn text-right">
+				 <a href="#"><img class="img-fluid" src="images/googleplay.png" alt="googleplay"></a>
+				 <a href="#"><img class="img-fluid" src="images/appstore.png" alt="appstore"></a>
+				</div>
+				
+				
+			 </div>
+		  </div>
+		
+		</section>
+		
+		
+        <footer>
+            <div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="tag_footer">
+						 <div class="row">
+							<div class="contact-area col-md-12">
+								<ul>
+									<a href="#"><li>Truck Breakdown App</li></a>
+									<a href="#"><li>Truck Repair Shops</li></a>
+									<a href="#"><li>Reefer Repair</li></a>
+									<a href="#"><li> Trailer Repair Shops</li></a>
+									<a href="#"><li> Towing Service Near Me</li></a>
+									<a href="#"><li> Tire Shops Near me</li></a>
+									<a href="#"><li>Truck Mechanic Near Me</li></a>
+									<a href="#"><li>Accident Recovery Services</li></a>
+									<a href="#"><li> Semi Truck Repair Near Me</li></a>
+									<a href="#"><li>Mobile Truck Repair</li></a>
+									<a href="#"><li>Wrecker Services Near Me</li></a>
+									<a href="#"><li>Heavy Duty Truck Repair</li></a>
+								</ul>
+							</div>
+
+							<div class="foot_text col-md-12 my-3">
+								<ul>
+									<li><a href="https://www.breakdowninc.com/about-us">About Us</a></li>
+									<li><a href="https://www.breakdowninc.com/blog">Blogs</a></li>
+									<li><a href="https://www.breakdowninc.com/app">Apps</a></li>
+									<li><a href="https://www.breakdowninc.com/contact-us">Contact Us</a></li>
+									<li><a href="https://www.breakdowninc.com/privacy-policy">Privacy Policy</a></li>
+									<li><a href="https://www.breakdowninc.com/terms-and-conditions">Terms and Conditions</a></li>
+									<li><a href="https://www.breakdowninc.com/refund-cancellation-policy">Refund And Cancellation Policy</a></li>
+								</ul>
+							</div>
+							<div class="contact-detail col-md-12 my-3">
+								<ul class="contact-list">
+									<li><a href="tel:800 805-7820"><i class="fa fa-phone"></i> (800) 805-7820</a></li>
+									<li><a href="tel:702 780-0780"><i class="fa fa-phone"></i> (702) 780-0780</a></li>
+									<li><a href="mailto:info@breakdowninc.com">
+										<i class="fa fa-envelope-o"></i> 
+										info@breakdowninc.com</a>
+									</li>
+								</ul>
+							</div>
+							<div class="social-icon col-md-12 my-3">
+								<ul>
+									<li>
+										<a href="https://www.facebook.com/breakdownincorp" target="_blank">
+											<i class="fa fa-facebook-square"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.instagram.com/breakdownincorp/" target="_blank">
+											<i class="fa fa-instagram"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://twitter.com/Breakdown_inc" target="_blank">
+											<i class="fa fa-twitter-square"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.youtube.com/channel/UCQ-MhvO5t66wKUfvOJeyI7g?view_as=subscriber" target="_blank">
+											<i class="fa fa-youtube"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.linkedin.com/company/breakdown-incorp" target="_blank">
+											<i class="fa fa-linkedin"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<hr>
+					</div>
+				</div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-bottom text-center">
+							<p class="py-1">© 2018-2022 Breakdown Inc.com. All rights reserved.</p>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+		
+		<!-- Hours Popup --->
+		
+		<div class="modal fade adv-sar" id="vendor-hours" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h6 class="modal-title text-white">Special Hours / 24 Hour Roadside Service</h6>
+					
+					
+					<button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+				  <div class="modal-body">
+				  <table class="table table-striped hours-time-table">
+					  <thead>
+						<tr>
+						 <th class="border-0" scope="col">DAY</th>
+						  <th class="border-0" scope="col">Open Time</th>
+						  <th class="border-0" scope="col">Close Time</th>
+						</tr>
+					  </thead>
+					  <tbody>
+						<tr>
+						  <th scope="row">MONDAY</th>
+						  <td>08:00 AM</td>
+						  <td>05:00 PM</td>
+						</tr>
+						<tr>
+						  <th scope="row">TUESDAY</th>
+						  <td>08:00 AM</td>
+						  <td>05:00 PM</td>
+						</tr>
+						<tr>
+						  <th scope="row">WEDNESDAY</th>
+						  <td>08:00 AM</td>
+						  <td>05:00 PM</td>
+						</tr>
+						
+						<tr>
+						  <th scope="row">THURSDAY</th>
+						  <td>08:00 AM</td>
+						  <td>05:00 PM</td>
+						</tr>
+						
+						<tr>
+						  <th scope="row">FRIDAY</th>
+						  <td>08:00 AM</td>
+						  <td>05:00 PM</td>
+						</tr>
+						
+						<tr>
+						  <th scope="row">SATURDAY</th>
+						  <td>CLOSED</td>
+						  <td>CLOSED</td>
+						</tr>
+						
+						<tr>
+						  <th scope="row">SUNDAY</th>
+						  <td>CLOSED</td>
+						  <td>CLOSED</td>
+						</tr>
+						
+						
+					  </tbody>
+					</table>
+					
+					<p class="text-danger small">*Note : We advise you to call the vendor and verify hours before driving to the location.</p>
+					
+				   </div>
+				   
+				 
+				</div>
+			  </div>
+			</div>
+			
+		<!-- Hours Popup --->
+		
+
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>-->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+		
+    </body>
+</html>

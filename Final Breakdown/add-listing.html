@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/custom.css"/>
+	<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+    <title>Breakdown Inc</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg pt-1 pb-1 pr-2 pl-2 header-dashboard">
+              <a class="navbar-brand" href="index.html"><img src="images/logo.png"/></a>
+			    <div class="dropdown accnt-user d-lg-none d-block mobil-accnt-user ml-auto">
+				    <button class="dropdown-acc dropdown-toggle" type="button" id="account-drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<img class="img-fluid" src="images/user-demo.png" alt="user-account"/> <span class="vend-nam">John Deo</span>
+					</button>
+					
+					<div class="dropdown-menu" aria-labelledby="account-drop">
+						<a class="dropdown-item" href="#"><i class="fa fa-history" aria-hidden="true"></i> History</a>
+						<a class="dropdown-item" href="#"><i class="fa fa-user" aria-hidden="true"></i> Profile</a>
+						<a class="dropdown-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>Signout</a>
+					</div>
+			    </div>
+			  
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+              </button>
+			  
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> &nbsp; Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="dashboard.html"><i class="fa fa-tachometer" aria-hidden="true"></i> &nbsp; Dashboard</a>
+                  </li>
+				  
+				  <li class="nav-item">
+                    <a class="nav-link" href="plan.html"><i class="fa fa-usd" aria-hidden="true"></i> &nbsp; Plans</a>
+                  </li>
+				  
+				  <li>
+				  <div class="dropdown accnt-user d-lg-block d-none">
+				    <button class="dropdown-acc dropdown-toggle" type="button" id="account-drop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<img class="img-fluid" src="images/user-demo.png" alt="user-account"/> <span class="vend-nam">John Deo</span>
+					</button>
+					
+					<div class="dropdown-menu" aria-labelledby="account-drop">
+						<a class="dropdown-item" href="#"><i class="fa fa-history" aria-hidden="true"></i> History</a>
+						<a class="dropdown-item" href="#"><i class="fa fa-user" aria-hidden="true"></i> Profile</a>
+						<a class="dropdown-item" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>Signout</a>
+					</div>
+				  </div>
+				  </li>
+                 
+                  <li class="nav-item">
+                    <a class="nav-link" href="add-listing.html">
+                    <button class="list-btn"><i class="fa fa-plus-circle" aria-hidden="true"></i>&nbsp; Add a Listing</button>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+	
+	<section class="mt-100 theme-gray sel-pln-page">
+      <div class="container">
+	    <div class="row">
+          <div class="col-md-12 hl-tit">
+            <h1>Choose Your Plan </h1>
+			<span>And Create Your Ads</span>
+		  </div>
+		</div>
+	  
+        <div class="row mt-4">
+          <div class="col-md-8 sel-page-plans home-plan-wrap">
+            <div class="plan-wrapa col-md-12 border">
+            <div class="row">
+			<div class="col-md-12 p-0 mx-auto">
+                <nav>
+                  <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Silver Plan</a>
+                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Gold Plan</a>
+                    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Diamond Plan</a>
+                  </div>
+                </nav>
+                <div class="tab-content p-3" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="sliver-plan-wrap">
+                      <div class="row justify-content-center align-items-center">
+                        <div class="col-md-4 col-12">
+                          <div class="sliver-image">
+                            <img src="images/ad-design-1.jpg" class="img-fluid">
+                          </div>
+                        </div>
+                        <div class="col-md-8 col-12 pl-md-0">
+                          <div class="sliver-content">
+                            <div class="row">
+                              <div class="col-md-8 col-12">
+                                <h3 class="company">Breakdown Inc</h3>
+                                <p class="company">Your Company Address, City, State, USA</p>
+                              </div>
+                              <div class="col-md-4 col-12 share-icon text-right">
+                                <i class="fa fa-share-alt" aria-hidden="true"></i>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <div class="contact-no">
+                                  <i class="fa fa-phone" aria-hidden="true"></i> (702) 780-0780
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <hr>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12 col-12">
+                                <div class="w-type d-inline">
+                                  <span>Work Type :</span>
+                                  <span class="small">Shop & Mobile</span>
+                                </div>
+                                <div class="w-type d-inline">
+                                  <span>Distance :</span>
+                                  <span class="small">0.0 Miles</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <p class="service-had"><strong>Services Provided :</strong></p>
+                                <ul class="road-service">
+                                  <li>Road Service</li>
+                                  <li>Electrical System</li>
+                                  <li>New Tires Sales</li>
+                                  <li>Fleet Acounts</li>
+                                </ul>
+                              </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div class="sliver-plan-wrap">
+                      <div class="row justify-content-center align-items-center">
+                        <div class="col-md-4 col-12">
+                          <div class="sliver-image">
+                            <img src="images/ad-design-2.jpg" class="img-fluid">
+                          </div>
+                        </div>
+                        <div class="col-md-8 col-12 pl-md-0">
+                          <div class="sliver-content">
+                            <div class="row">
+                              <div class="col-md-8 col-12">
+                                <h3 class="company">Breakdown Inc</h3>
+                                <p class="company">Your Company Address, City, State, USA</p>
+                              </div>
+                              <div class="col-md-4 col-12 share-icon text-right">
+                                <i class="fa fa-share-alt" aria-hidden="true"></i>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <div class="contact-no">
+                                  <i class="fa fa-phone" aria-hidden="true"></i> (702) 780-0780
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <hr>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12 col-12">
+                                <div class="w-type d-inline">
+                                  <span>Work Type :</span>
+                                  <span class="small">Shop & Mobile</span>
+                                </div>
+                                <div class="w-type d-inline">
+                                  <span>Distance :</span>
+                                  <span class="small">0.0 Miles</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <p class="service-had"><strong>Services Provided :</strong></p>
+                                <ul class="road-service">
+                                  <li>Road Service</li>
+                                  <li>Electrical System</li>
+                                  <li>New Tires Sales</li>
+                                  <li>Fleet Acounts</li>
+                                </ul>
+                              </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                    <div class="sliver-plan-wrap">
+                      <div class="row justify-content-center align-items-center">
+                        <div class="col-md-4 col-12">
+                          <div class="sliver-image">
+                            <img src="images/ad-design-3.jpg" class="img-fluid">
+                          </div>
+                        </div>
+                        <div class="col-md-8 col-12 pl-md-0">
+                          <div class="sliver-content">
+                            <div class="row">
+                              <div class="col-md-8 col-12">
+                                <h3 class="company">Breakdown Inc</h3>
+                                <p class="company">Your Company Address, City, State, USA</p>
+                              </div>
+                              <div class="col-md-4 col-12 share-icon text-right">
+                                <i class="fa fa-share-alt" aria-hidden="true"></i>
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <div class="contact-no">
+                                  <i class="fa fa-phone" aria-hidden="true"></i> (702) 780-0780
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <hr>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12 col-12">
+                                <div class="w-type d-inline">
+                                  <span>Work Type :</span>
+                                  <span class="small">Shop & Mobile</span>
+                                </div>
+                                <div class="w-type d-inline">
+                                  <span>Distance :</span>
+                                  <span class="small">0.0 Miles</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12">
+                                <p class="service-had"><strong>Services Provided :</strong></p>
+                                <ul class="road-service">
+                                  <li>Road Service</li>
+                                  <li>Electrical System</li>
+                                  <li>New Tires Sales</li>
+                                  <li>Fleet Acounts</li>
+                                </ul>
+                              </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+		  </div>
+		  
+		  <div class="col-md-4">
+		   <div class="page-plans-pric bg-white p-4 text-right border">
+		   
+		    <div class="row">
+			<div class="plan-rate col-md-6 col-6 text-left">
+			 <span>Plan</span>
+			 <h4 class="pac-view">Silver</h4>
+			</div>
+			<div class="plan-rate col-md-6 col-6">
+			 <span>Plan Price (USD)</span>
+			 <h4>$50.00</h4>
+			</div>
+			</div>
+			
+		    <div class="sel-plan-opt mt-2">
+			 <div class="advn-content">
+              <form>
+                <div class="row advc-srch-form">
+                  <div class="form-group col-md-12">
+                   <select class="selectpicker advc-select advc-serv form-control">
+                      <option>Select Category</option>
+                      <option>Truck Repair</option>
+                      <option>Trailer Repair</option>
+                      <option>Towing Recovery</option>
+                      <option>Tire Repair and Sales</option>
+                      <option>Reefer Repair</option>
+                      <option>Truck Stops with Repair</option>
+                    </select>
+				  </div>
+                  
+                  <div class="form-group col-md-12">
+                    <select class="selectpicker advc-select advc-work form-control">
+                      <option>Plan Mode</option>
+                      <option>Monthly</option>
+                      <option>Yearly</option>
+                    </select>
+				  </div>
+				</div>
+              </form>
+            </div>
+			</div>
+			
+			<div class="plan-rate">
+			 <span>Total Amount (USD)</span>
+			 <h4>$50.00</h4>
+			</div>
+			
+			<button class="theme-button-one w-100" onclick="window.location.href = 'create-ad.html';">Create Your Add</button>
+			</div>
+		  </div>
+		</div>
+		
+		<div class="row mt-4">
+          <div class="col-md-12 hl-tollfree">
+            <h3>Call Us <span>(800) 805-7820</span> For Free Customization</h3>
+		  </div>
+		</div>
+	  </div>
+    </section>
+	
+	
+	
+    <section class="dowapp-slim">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-5 dowapp-slim-cont">
+            <h4>Download App Now</h4>
+            <p class="mb-0">Now Available on iOS and Android</p>
+          </div>
+          <div class="col-md-7 dowapp-slim-btn text-right">
+            <a href="https://play.google.com/store/apps/details?id=com.crinoid.breakdown&amp;hl=en" target="_blank">
+            <img class="img-fluid" src="images/googleplay.png" alt="googleplay"></a>
+            <a href="https://itunes.apple.com/us/app/breakdown-inc/id1459289134" target="_blank">
+            <img class="img-fluid" src="images/appstore.png" alt="appstore">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="tag_footer">
+              <div class="row">
+                <div class="contact-area col-md-12">
+                  <ul class="foot-highligh-link">
+                    <li><a href="#">Truck Breakdown App</a></li>
+                    <li><a href="#">Truck Repair Shops</a></li>
+                    <li><a href="#">Reefer Repair</a></li>
+                    <li><a href="#">Trailer Repair Shops</a></li>
+                    <li><a href="#">Towing Service Near Me</a></li>
+                    <li><a href="#">Tire Shops Near me</a></li>
+                    <li><a href="#">Truck Mechanic Near Me</a></li>
+                    <li><a href="#">Accident Recovery Services</a></li>
+                    <li><a href="#">Semi Truck Repair Near Me</a></li>
+                    <li><a href="#">Mobile Truck Repair</a></li>
+                    <li><a href="#">Wrecker Services Near Me</a></li>
+                    <li><a href="#">Heavy Duty Truck Repair</a></li>
+                  </ul>
+                </div>
+                <div class="foot_text col-md-12 my-3">
+                  <ul>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="blog.html">Blogs</a></li>
+                    <li><a href="app.html">App</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
+                    <li><a href="refund-cancellation-policy.html">Refund And Cancellation Policy</a></li>
+                  </ul>
+                </div>
+                <div class="contact-detail col-md-12 my-3">
+                  <ul class="contact-list">
+                    <li><a href="tel:800 805-7820"><i class="fa fa-phone"></i> (800) 805-7820</a></li>
+                    <li><a href="tel:702 780-0780"><i class="fa fa-phone"></i> (702) 780-0780</a></li>
+                    <li><a href="mailto:info@breakdowninc.com">
+                      <i class="fa fa-envelope-o"></i> 
+                      info@breakdowninc.com</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="social-icon col-md-12 my-3">
+                  <ul>
+                    <li>
+                      <a href="https://www.facebook.com/breakdownincorp" target="_blank">
+                      <i class="fa fa-facebook-square"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/breakdownincorp/" target="_blank">
+                      <i class="fa fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/Breakdown_inc" target="_blank">
+                      <i class="fa fa-twitter-square"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/channel/UCQ-MhvO5t66wKUfvOJeyI7g?view_as=subscriber" target="_blank">
+                      <i class="fa fa-youtube"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/company/breakdown-incorp" target="_blank">
+                      <i class="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="footer-bottom text-center">
+              <p class="py-1">© 2018-2022 Breakdown Inc.com. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+	
+	<a href="#" id="toTopBtn" class="uptop-btn" data-abc="true"> <i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+	
+	
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+	
+	<script>
+	$(document).ready(function() {
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 20) {
+      $('#toTopBtn').fadeIn();
+    } else {
+      $('#toTopBtn').fadeOut();
+    }
+  });
+
+  $('#toTopBtn').click(function() {
+    $("html, body").animate({
+      scrollTop: 0
+    }, 1000);
+    return false;
+  });
+});
+	</script>
+	
+	
+	
+  </body>
+</html>
